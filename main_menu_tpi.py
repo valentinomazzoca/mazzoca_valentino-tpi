@@ -1,0 +1,5 @@
+from filtrar_tpi import filtro_continente, rango_poblacion, rango_superficie
+from agregar_pais import agregar_pais, modificar_poblacion_y_superficie
+from busqueda_nombre import buscar_pais
+from estadisticas_tpi import mayor_y_menor_poblacion, promedio_poblacion, promedio_superficie, cantidad_paises_continente
+from ordenar_tpi import ordenar_poblacion, ordenar_nombre, ordenar_superficie
