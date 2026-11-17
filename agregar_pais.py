@@ -1,5 +1,5 @@
 import csv
-
+from validaciones import validar_formato_csv
 
 def agregar_pais(nombre, poblacion, superficie, continente):
     if nombre == "" or poblacion == "" or superficie == "" or continente == "":
@@ -29,6 +29,7 @@ def modificar_poblacion_y_superficie(nombre, poblacion, superficie):
         lector = csv.reader(archivo)
 
         for fila in lector:
+            validar_formato_csv(fila)
             paises.append(fila)
 
     encontrado = False

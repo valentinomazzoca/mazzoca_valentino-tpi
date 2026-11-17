@@ -1,4 +1,6 @@
 import csv
+from validaciones import validar_formato_csv
+
 
 def buscar_pais(nombre_buscado):
     paises_encontrados = []
@@ -8,6 +10,7 @@ def buscar_pais(nombre_buscado):
         next(lector)
 
         for fila in lector:
+            validar_formato_csv(fila)
             if nombre_buscado.lower() in fila[0].lower():
                 paises_encontrados.append(fila)
 

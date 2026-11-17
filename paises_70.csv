@@ -1,29 +1,29 @@
 ﻿nombre,poblacion,superficie,continente
-Argentina,45376763,2780400,América
-Japón,125800000,377975,Asia
-Brasil,213993437,8515767,América
+Argentina,45376763,2780400,America
+Japon,125800000,377975,Asia
+Brasil,213993437,8515767,America
 Alemania,83149300,357022,Europa
-Chile,19603733,756102,América
-Uruguay,3426260,176215,América
-Paraguay,7440000,406752,América
-Bolivia,12388571,1098581,América
-Perú,34352719,1285216,América
-Colombia,52321152,1141748,América
-Ecuador,18190484,283561,América
-Venezuela,28838499,916445,América
-México,129739759,1964375,América
-Canadá,40097761,9984670,América
-Estados Unidos,341814420,9833517,América
-Cuba,11194449,109884,América
-Guatemala,18092026,108889,América
-Costa Rica,5212173,51100,América
-Panamá,4468087,75417,América
-Honduras,10825703,112492,América
+Chile,19603733,756102,America
+Uruguay,3426260,176215,America
+Paraguay,7440000,406752,America
+Bolivia,12388571,1098581,America
+Peru,34352719,1285216,America
+Colombia,52321152,1141748,America
+Ecuador,18190484,283561,America
+Venezuela,28838499,916445,America
+Mexico,129739759,1964375,America
+Canada,40097761,9984670,America
+Estados Unidos,341814420,9833517,America
+Cuba,11194449,109884,America
+Guatemala,18092026,108889,America
+Costa Rica,5212173,51100,America
+Panama,4468087,75417,America
+Honduras,10825703,112492,America
 China,1419321278,9596961,Asia
 India,1450935791,3287263,Asia
 Indonesia,283487931,1904569,Asia
-Pakistán,251269164,881913,Asia
-Bangladés,173562364,147570,Asia
+Pakistan,251269164,881913,Asia
+Banglades,173562364,147570,Asia
 Rusia,144820423,17098242,Europa/Asia
 Corea del Sur,51717590,100210,Asia
 Corea del Norte,26498323,120538,Asia
@@ -32,20 +32,20 @@ Vietnam,100987686,331212,Asia
 Filipinas,115843670,300000,Asia
 Malasia,35977838,330803,Asia
 Arabia Saudita,33962757,2149690,Asia
-Irán,91567738,1648195,Asia
+Iran,91567738,1648195,Asia
 Irak,46042015,438317,Asia
 Israel,9387021,22072,Asia
-Turquía,87473805,783562,Asia
+Turquia,87473805,783562,Asia
 Nepal,29651054,147516,Asia
 Sri Lanka,21916256,65610,Asia
 Singapur,6040000,734,Asia
 Francia,66548530,551695,Europa
 Italia,58997101,301340,Europa
-España,47910526,505990,Europa
+Espana,47910526,505990,Europa
 Reino Unido,69226699,243610,Europa
 Portugal,10425292,92212,Europa
-Países Bajos,17946926,41543,Europa
-Bélgica,11758603,30528,Europa
+Paises Bajos,17946926,41543,Europa
+Belgica,11758603,30528,Europa
 Suiza,8967407,41285,Europa
 Austria,9170810,83879,Europa
 Polonia,38539201,312696,Europa
@@ -54,19 +54,19 @@ Suecia,10606999,450295,Europa
 Noruega,5576660,385207,Europa
 Grecia,10341277,131957,Europa
 Rumania,19015088,238397,Europa
-Australia,26697482,7692024,Oceanía
-Nueva Zelanda,5228100,268838,Oceanía
-Papúa Nueva Guinea,10576502,462840,Oceanía
-Fiyi,928784,18274,Oceanía
-Egipto,116538258,1002450,África
-Sudáfrica,64007947,1221037,África
-Nigeria,232679478,923768,África
-Etiopía,132059767,1104300,África
-Kenia,56432944,580367,África
-Marruecos,38081173,446550,África
-Argelia,46814308,2381741,África
-Ghana,34121985,238533,África
-Tanzania,68560157,947303,África
-Senegal,18501984,196722,África
-Camerún,29123657,475442,África
+Australia,26697482,7692024,Oceania
+Nueva Zelanda,5228100,268838,Oceania
+Papua Nueva Guinea,10576502,462840,Oceania
+Fiyi,928784,18274,Oceania
+Egipto,116538258,1002450,Africa
+Sudafrica,64007947,1221037,Africa
+Nigeria,232679478,923768,Africa
+Etiopia,132059767,1104300,Africa
+Kenia,56432944,580367,Africa
+Marruecos,38081173,446550,Africa
+Argelia,46814308,2381741,Africa
+Ghana,34121985,238533,Africa
+Tanzania,68560157,947303,Africa
+Senegal,18501984,196722,Africa
+Camerun,29123657,475442,Africa
 argen,100000,25000,america

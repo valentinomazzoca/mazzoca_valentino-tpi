@@ -1,10 +1,6 @@
-#Ordenar países por:
-# Nombre
-# Población
-# Superficie (ascendente o descendente)
 
 import csv
-
+from validaciones import validar_formato_csv
 
 def ordenar_poblacion():
     poblacion = []
@@ -14,8 +10,9 @@ def ordenar_poblacion():
 
         next(lector)
 
-        for filas in lector:
-            poblacion.append(filas)
+        for fila in lector:
+            validar_formato_csv(fila)
+            poblacion.append(fila)
 
         orden_ascendente = sorted(poblacion, key=lambda fila: int(fila[1]))
         orden_descendente = sorted(poblacion, key=lambda fila: int(fila[1]), reverse=True)
@@ -29,8 +26,9 @@ def ordenar_nombre():
 
         next(lector)
 
-        for filas in lector:
-            nombre.append(filas)
+        for fila in lector:
+            validar_formato_csv(fila)
+            nombre.append(fila)
 
         orden_ascendente = sorted(nombre, key=lambda fila: fila[0])
         orden_descendente = sorted(nombre, key=lambda fila: fila[0], reverse= True)
@@ -43,8 +41,9 @@ def ordenar_superficie():
 
         next(lector)
 
-        for filas in lector: 
-            superficie.append(filas)
+        for fila in lector:
+            validar_formato_csv(fila) 
+            superficie.append(fila)
             orden_ascendente = sorted(superficie, key=lambda fila: int(fila[2]))
             orden_descendente = sorted(superficie, key=lambda fila: int(fila[2]), reverse= True)
     return orden_ascendente, orden_descendente

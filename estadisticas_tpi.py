@@ -1,11 +1,6 @@
-###Mostrar estadísticas:
-### País con mayor y menor población
-# Promedio de población 
-#  Promedio de superficie
-# Cantidad de países por continente
-
 
 import csv
+from validaciones import validar_formato_csv
 
 def mayor_y_menor_poblacion():
 
@@ -18,6 +13,7 @@ def mayor_y_menor_poblacion():
         next(lector)
 
         for fila in lector:
+            validar_formato_csv(fila)
             poblacion = int(fila[1])
 
             if poblacion < menor_poblacion:
@@ -39,6 +35,7 @@ def promedio_poblacion():
         next(lector)
 
         for fila in lector:
+            validar_formato_csv(fila)
             poblacion = int(fila[1])
             cantidad_habitantes += poblacion
             cantidad_paises += 1
@@ -54,6 +51,7 @@ def promedio_superficie():
         next(lector)
 
         for fila in lector:
+            validar_formato_csv(fila)
             superficie = int(fila[2])
             cantidad_superficie += superficie
             cantidad_paises += 1
@@ -71,6 +69,7 @@ def cantidad_paises_continente():
         lector = csv.reader(archivo)
         next(lector)
         for fila in lector:
+            validar_formato_csv(fila)
             continente = (fila[3]).lower()
             if continente == "america":
                 cantidad_america += 1
